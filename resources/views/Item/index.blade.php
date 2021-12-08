@@ -1,10 +1,11 @@
-@extends('layouts.item')
+@extends('layouts.userItem')
 
 @section('title', 'Items')
 
 @section('menubar')
+<a href='{{route('home')}}'>ホーム画面へ</a>
 @parent
-Itemページ
+商品一覧ページ
 @endsection
 
 @section('content')
